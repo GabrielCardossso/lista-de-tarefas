@@ -1,6 +1,6 @@
-# 📝 Lista de Tarefas
+<img src="./.github/readme/header.svg" width="100%" alt="lista-de-tarefas: Projeto de estudo" />
 
-Projeto simples para organizar tarefas: adicionar, marcar como concluídas e remover.  
+<img src="./.github/readme/sobre.svg" width="100%" alt="Sobre o projeto: Lista de tarefas simples em HTML, CSS e JavaScript: adicionar, marcar como concluídas e remover tarefas." />
 
 ## 🧰 Tecnologias
 - HTML  
