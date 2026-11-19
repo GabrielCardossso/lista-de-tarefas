@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+<title id="title">Estrutura de lista-de-tarefas</title>
+<desc id="desc">tarefas.html: página da lista · style.css: estilos, tema escuro e animações · script.js: lógica das tarefas e localStorage · README.md</desc>
+<style>
+.mono{font-family:'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace}
+text{shape-rendering:auto}
+</style>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#ffffff" opacity=".06"/></pattern>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".22"/></pattern>
+<clipPath id="card"><rect width="1200" height="280" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="280" fill="#191817"/>
+<rect width="1200" height="280" fill="url(#grid)"/>
+<rect width="1200" height="40" fill="#262422"/>
+<rect y="40" width="1200" height="1" fill="#3a3733"/>
+<rect x="20" y="14" width="12" height="12" fill="#e5534b"/>
+<rect x="40" y="14" width="12" height="12" fill="#e0a43b"/>
+<rect x="60" y="14" width="12" height="12" fill="#5fb85f"/>
+<text x="600" y="25" text-anchor="middle" class="mono" font-size="14" fill="#86817a">estrutura</text>
+<text x="48" y="88" class="mono" font-size="15" fill="#d97757">$</text>
+<text x="66" y="88" class="mono" font-size="15" fill="#ece9e4">tree lista-de-tarefas</text>
+<text x="48" y="128" class="mono" font-size="15" font-weight="700" fill="#d97757">lista-de-tarefas/</text>
+<text x="48" y="154" class="mono" font-size="15" fill="#5c5852" xml:space="preserve">├── <tspan fill="#ece9e4">tarefas.html</tspan></text>
+<text x="219" y="154" class="mono" font-size="14" fill="#86817a"># página da lista</text>
+<text x="48" y="180" class="mono" font-size="15" fill="#5c5852" xml:space="preserve">├── <tspan fill="#ece9e4">style.css</tspan></text>
+<text x="219" y="180" class="mono" font-size="14" fill="#86817a"># estilos, tema escuro e animações</text>
+<text x="48" y="206" class="mono" font-size="15" fill="#5c5852" xml:space="preserve">├── <tspan fill="#ece9e4">script.js</tspan></text>
+<text x="219" y="206" class="mono" font-size="14" fill="#86817a"># lógica das tarefas e localStorage</text>
+<text x="48" y="232" class="mono" font-size="15" fill="#5c5852" xml:space="preserve">└── <tspan fill="#ece9e4">README.md</tspan></text>
+
+<rect width="1200" height="280" fill="url(#scan)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="279" rx="9.5" fill="none" stroke="#3a3733"/>
+</svg>
